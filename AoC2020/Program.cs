@@ -27,7 +27,15 @@ namespace AoC2020
                 .Solve()
                 .ToConsole("Day 2B");
 
-            Console.ReadKey();
+            ProblemFactory.Create<Day3A>()
+                .AppendTime()
+                .Solve()
+                .ToConsole("Day 3A");
+            
+            ProblemFactory.Create<Day3B>()
+                .AppendTime()
+                .Solve()
+                .ToConsole("Day 3B");
         }
     }
 }

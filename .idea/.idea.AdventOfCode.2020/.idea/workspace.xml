@@ -4,11 +4,19 @@
     <projectFile>AoC2020/AoC2020.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60c39335-527d-440a-9876-92b4fad8e6f2" name="Default Changelist" comment="" />
+    <list default="true" id="60c39335-527d-440a-9876-92b4fad8e6f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/AoC2020.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/AoC2020.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -23,12 +31,17 @@
         <option value="$PROJECT_DIR$/AoC2020/Days/Day2A.cs" />
         <option value="$PROJECT_DIR$/AoC2020/Input/day02.in" />
         <option value="$PROJECT_DIR$/AoC2020/Days/Day2B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day3A.cs" />
         <option value="$PROJECT_DIR$/AoC2020/Program.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day3B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Input/day03.in" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1l5HqxYsld1ImVp5WpmiirYCi1W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,13 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1606880230773</updated>
       <workItem from="1606880236969" duration="11497000" />
+      <workItem from="1607015205160" duration="1618000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -96,25 +110,25 @@
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state width="422" height="464" key="DebuggerActiveHint/0.25.1440.807@0.25.1440.807" timestamp="1606883644904" />
-    <state width="1358" height="266" key="GridCell.Tab.0.bottom" timestamp="1606940926843">
+    <state width="1358" height="182" key="GridCell.Tab.0.bottom" timestamp="1607016768455">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1358" height="266" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1606940926843" />
+    <state width="1358" height="182" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1607016768455" />
     <state width="1358" height="120" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1606935037324" />
-    <state width="1358" height="266" key="GridCell.Tab.0.center" timestamp="1606940926843">
+    <state width="1358" height="182" key="GridCell.Tab.0.center" timestamp="1607016768454">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1358" height="266" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1606940926843" />
+    <state width="1358" height="182" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1607016768454" />
     <state width="1358" height="120" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1606935037323" />
-    <state width="1358" height="266" key="GridCell.Tab.0.left" timestamp="1606940926842">
+    <state width="1358" height="182" key="GridCell.Tab.0.left" timestamp="1607016768454">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1358" height="266" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1606940926842" />
+    <state width="1358" height="182" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1607016768454" />
     <state width="1358" height="120" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1606935037323" />
-    <state width="1358" height="266" key="GridCell.Tab.0.right" timestamp="1606940926843">
+    <state width="1358" height="182" key="GridCell.Tab.0.right" timestamp="1607016768454">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1358" height="266" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1606940926843" />
+    <state width="1358" height="182" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1607016768454" />
     <state width="1358" height="120" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1606935037324" />
     <state width="1358" height="266" key="GridCell.Tab.1.bottom" timestamp="1606940926843">
       <screen x="0" y="25" width="1440" height="790" />
@@ -180,5 +194,24 @@
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="320" y="164" key="Rider.ProjectTemplateDialog.Size/0.25.1440.807@0.25.1440.807" timestamp="1606880860814" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AoC2020/Days/Day3B.cs</url>
+          <line>23</line>
+          <properties documentPath="$PROJECT_DIR$/AoC2020/Days/Day3B.cs" initialLine="23">
+            <startOffsets>
+              <option value="729" />
+            </startOffsets>
+            <endOffsets>
+              <option value="756" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

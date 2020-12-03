@@ -14,11 +14,14 @@
           <e p="Day1B.cs" t="Include" />
           <e p="Day2A.cs" t="Include" />
           <e p="Day2B.cs" t="Include" />
+          <e p="Day3A.cs" t="Include" />
+          <e p="Day3B.cs" t="Include" />
         </e>
         <e p="IInputParser.cs" t="Include" />
         <e p="Input" t="Include">
           <e p="day01.in" t="Include" />
           <e p="day02.in" t="Include" />
+          <e p="day03.in" t="Include" />
         </e>
         <e p="InputParser.cs" t="Include" />
         <e p="IProblem.cs" t="Include" />
