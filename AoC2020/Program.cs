@@ -3,7 +3,7 @@ using AoC2020.Days;
 
 namespace AoC2020
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -16,17 +16,18 @@ namespace AoC2020
                 .AppendTime()
                 .Solve()
                 .ToConsole("Day 1B");
+            
+            ProblemFactory.Create<Day2A>()
+                .AppendTime()
+                .Solve()
+                .ToConsole("Day 2A");
+            
+            ProblemFactory.Create<Day2B>()
+                .AppendTime()
+                .Solve()
+                .ToConsole("Day 2B");
 
             Console.ReadKey();
-        }
-    }
-    
-    public static class StringExtensions
-    {
-        public static void ToConsole(this string s, string day = "")
-        {
-            Console.WriteLine($"{day} result: {s}".Trim());
-            Console.WriteLine();
         }
     }
 }
