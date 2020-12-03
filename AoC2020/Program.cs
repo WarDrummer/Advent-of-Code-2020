@@ -1,11 +1,10 @@
-﻿using System;
-using AoC2020.Days;
+﻿using AoC2020.Days;
 
 namespace AoC2020
 {
     static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             ProblemFactory.Create<Day1A>()
                 .AppendTime()
