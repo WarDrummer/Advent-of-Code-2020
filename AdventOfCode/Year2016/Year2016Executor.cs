@@ -25,7 +25,7 @@ using AdventOfCode.Year2016.Day23;
 using AdventOfCode.Year2016.Day24;
 using AdventOfCode.Year2016.Day25;
 
-namespace AdventOfCode
+namespace AdventOfCode.Year2016
 {
     public class Year2016Executor : IYearExecutor
     {

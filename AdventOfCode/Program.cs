@@ -1,4 +1,6 @@
-﻿namespace AdventOfCode
+﻿using AdventOfCode.Year2020;
+
+namespace AdventOfCode
 {
     static class Program
     {

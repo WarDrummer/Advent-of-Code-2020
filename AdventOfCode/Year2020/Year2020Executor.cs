@@ -5,6 +5,7 @@ using AdventOfCode.Year2020.Day03;
 using AdventOfCode.Year2020.Day04;
 using AdventOfCode.Year2020.Day05;
 using AdventOfCode.Year2020.Day06;
+
 // using AdventOfCode.Year2020.Day07;
 // using AdventOfCode.Year2020.Day08;
 // using AdventOfCode.Year2020.Day09;
@@ -25,7 +26,7 @@ using AdventOfCode.Year2020.Day06;
 // using AdventOfCode.Year2020.Day24;
 // using AdventOfCode.Year2020.Day25;
 
-namespace AdventOfCode
+namespace AdventOfCode.Year2020
 {
     public class Year2020Executor : IYearExecutor
     {
