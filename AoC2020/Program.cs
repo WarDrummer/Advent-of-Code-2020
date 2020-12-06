@@ -55,6 +55,16 @@ namespace AoC2020
                 .AppendTime()
                 .Solve()
                 .ToConsole("Day 5B");
+            
+            ProblemFactory.Create<Day6A>()
+                .AppendTime()
+                .Solve()
+                .ToConsole("Day 6A");
+            
+            ProblemFactory.Create<Day6B>()
+                .AppendTime()
+                .Solve()
+                .ToConsole("Day 6B");
         }
     }
 }

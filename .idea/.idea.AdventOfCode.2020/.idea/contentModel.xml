@@ -20,6 +20,8 @@
           <e p="Day4B.cs" t="Include" />
           <e p="Day5A.cs" t="Include" />
           <e p="Day5B.cs" t="Include" />
+          <e p="Day6A.cs" t="Include" />
+          <e p="Day6B.cs" t="Include" />
         </e>
         <e p="IInputParser.cs" t="Include" />
         <e p="Input" t="Include">
@@ -28,6 +30,7 @@
           <e p="day03.in" t="Include" />
           <e p="day04.in" t="Include" />
           <e p="day05.in" t="Include" />
+          <e p="day06.in" t="Include" />
         </e>
         <e p="InputParser.cs" t="Include" />
         <e p="IProblem.cs" t="Include" />
