@@ -6,13 +6,13 @@ namespace AoC2020.Days
 {
     using ParserType = MultiLineStringParser;
     
-    public class Day4A : IProblem
+    public class Day04A : IProblem
     {
         protected readonly ParserType _parser;
 
-        public Day4A() : this(new ParserType("day04.in")) { }
+        public Day04A() : this(new ParserType("day04.in")) { }
 
-        private Day4A(ParserType parser) { _parser = parser; }
+        private Day04A(ParserType parser) { _parser = parser; }
 
         public virtual string Solve()
         {

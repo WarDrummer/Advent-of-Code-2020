@@ -10,18 +10,55 @@
         <e p="AoC2020.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Days" t="Include">
-          <e p="Day1A.cs" t="Include" />
-          <e p="Day1B.cs" t="Include" />
-          <e p="Day2A.cs" t="Include" />
-          <e p="Day2B.cs" t="Include" />
-          <e p="Day3A.cs" t="Include" />
-          <e p="Day3B.cs" t="Include" />
-          <e p="Day4A.cs" t="Include" />
-          <e p="Day4B.cs" t="Include" />
-          <e p="Day5A.cs" t="Include" />
-          <e p="Day5B.cs" t="Include" />
-          <e p="Day6A.cs" t="Include" />
-          <e p="Day6B.cs" t="Include" />
+          <e p="Day01A.cs" t="Include" />
+          <e p="Day01B.cs" t="Include" />
+          <e p="Day02A.cs" t="Include" />
+          <e p="Day02B.cs" t="Include" />
+          <e p="Day03A.cs" t="Include" />
+          <e p="Day03B.cs" t="Include" />
+          <e p="Day04A.cs" t="Include" />
+          <e p="Day04B.cs" t="Include" />
+          <e p="Day05A.cs" t="Include" />
+          <e p="Day05B.cs" t="Include" />
+          <e p="Day06A.cs" t="Include" />
+          <e p="Day06B.cs" t="Include" />
+          <e p="Day07A.cs" t="Include" />
+          <e p="Day07B.cs" t="Include" />
+          <e p="Day08A.cs" t="Include" />
+          <e p="Day08B.cs" t="Include" />
+          <e p="Day09A.cs" t="Include" />
+          <e p="Day09B.cs" t="Include" />
+          <e p="Day10A.cs" t="Include" />
+          <e p="Day10B.cs" t="Include" />
+          <e p="Day11A.cs" t="Include" />
+          <e p="Day11B.cs" t="Include" />
+          <e p="Day12A.cs" t="Include" />
+          <e p="Day12B.cs" t="Include" />
+          <e p="Day13A.cs" t="Include" />
+          <e p="Day13B.cs" t="Include" />
+          <e p="Day14A.cs" t="Include" />
+          <e p="Day14B.cs" t="Include" />
+          <e p="Day15A.cs" t="Include" />
+          <e p="Day15B.cs" t="Include" />
+          <e p="Day16A.cs" t="Include" />
+          <e p="Day16B.cs" t="Include" />
+          <e p="Day17A.cs" t="Include" />
+          <e p="Day17B.cs" t="Include" />
+          <e p="Day18A.cs" t="Include" />
+          <e p="Day18B.cs" t="Include" />
+          <e p="Day19A.cs" t="Include" />
+          <e p="Day19B.cs" t="Include" />
+          <e p="Day20A.cs" t="Include" />
+          <e p="Day20B.cs" t="Include" />
+          <e p="Day21A.cs" t="Include" />
+          <e p="Day21B.cs" t="Include" />
+          <e p="Day22A.cs" t="Include" />
+          <e p="Day22B.cs" t="Include" />
+          <e p="Day23A.cs" t="Include" />
+          <e p="Day23B.cs" t="Include" />
+          <e p="Day24A.cs" t="Include" />
+          <e p="Day24B.cs" t="Include" />
+          <e p="Day25A.cs" t="Include" />
         </e>
         <e p="IInputParser.cs" t="Include" />
         <e p="Input" t="Include">
@@ -31,6 +68,25 @@
           <e p="day04.in" t="Include" />
           <e p="day05.in" t="Include" />
           <e p="day06.in" t="Include" />
+          <e p="day07.in" t="Include" />
+          <e p="day08.in" t="Include" />
+          <e p="day09.in" t="Include" />
+          <e p="day10.in" t="Include" />
+          <e p="day11.in" t="Include" />
+          <e p="day12.in" t="Include" />
+          <e p="day13.in" t="Include" />
+          <e p="day14.in" t="Include" />
+          <e p="day15.in" t="Include" />
+          <e p="day16.in" t="Include" />
+          <e p="day17.in" t="Include" />
+          <e p="day18.in" t="Include" />
+          <e p="day19.in" t="Include" />
+          <e p="day20.in" t="Include" />
+          <e p="day21.in" t="Include" />
+          <e p="day22.in" t="Include" />
+          <e p="day23.in" t="Include" />
+          <e p="day24.in" t="Include" />
+          <e p="day25.in" t="Include" />
         </e>
         <e p="InputParser.cs" t="Include" />
         <e p="IProblem.cs" t="Include" />

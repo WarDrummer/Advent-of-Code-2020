@@ -5,15 +5,15 @@ namespace AoC2020.Days
 {
     using ParserType = MultiLineStringParser;
 
-    public class Day5A : IProblem
+    public class Day05A : IProblem
     {
         private readonly ParserType _parser;
 
-        public Day5A() : this(new ParserType("day05.in"))
+        public Day05A() : this(new ParserType("day05.in"))
         {
         }
 
-        private Day5A(ParserType parser)
+        private Day05A(ParserType parser)
         {
             _parser = parser;
         }

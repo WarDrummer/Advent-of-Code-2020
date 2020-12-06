@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace AoC2020.Days
 {
-    public class Day4B : Day4A
+    public class Day04B : Day04A
     {
         private static readonly HashSet<string> EyeColor = new HashSet<string>
         {

@@ -26,6 +26,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.2020/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AoC2020/AoC2020.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/AoC2020.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day1A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day01A.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day1B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day01B.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day2A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day02A.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day2B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day02B.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day3A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day03A.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day3B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day03B.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day4A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day04A.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day4B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day04B.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day5A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day05A.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day5B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day05B.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day6A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day06A.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC2020/Days/Day6B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Days/Day06B.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AoC2020/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2020/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,29 +51,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AoC2020/InputParser.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Day1A.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Day1B.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Input/day01.in" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day1B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Input/day08.in" />
+        <option value="$PROJECT_DIR$/AoC2020/Input/day19.in" />
         <option value="$PROJECT_DIR$/AoC2020/Days/Day1A.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/.gitignore" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day2A.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Input/day02.in" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day2B.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day3A.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Input/day03.in" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day3B.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day4A.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Input/day04.in" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day4B.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Input/day05.in" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day5A.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day5B.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Input/day06.in" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day6B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day01A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day01B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day02A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day02B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day03A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day04A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day05A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day06A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day07A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day07B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day08A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day9A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day09A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day9B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day09B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day10A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day11A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day11B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day12A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day12B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day13A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day13B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day14A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day14B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day15A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day15B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day16A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day16B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day17A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day17B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day18A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day18B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day19A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day19B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day20A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day20B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day21A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day21B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day22A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day22B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day23A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day23B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day24A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day24B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day25A.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day08B.cs" />
+        <option value="$PROJECT_DIR$/AoC2020/Days/Day10B.cs" />
         <option value="$PROJECT_DIR$/AoC2020/Program.cs" />
-        <option value="$PROJECT_DIR$/AoC2020/Days/Day6A.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +160,7 @@
       <workItem from="1607100888142" duration="2094000" />
       <workItem from="1607103694277" duration="5145000" />
       <workItem from="1607183351608" duration="3630000" />
-      <workItem from="1607263795184" duration="2032000" />
+      <workItem from="1607263795184" duration="5034000" />
     </task>
     <servers />
   </component>
@@ -155,33 +195,33 @@
     <state width="423" height="518" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1607103048281" />
     <state width="448" height="455" key="DebuggerActiveHint/0.25.1440.790/589.-1055.1920.1055@0.25.1440.790" timestamp="1607187079646" />
     <state width="422" height="464" key="DebuggerActiveHint/0.25.1440.807@0.25.1440.807" timestamp="1606883644904" />
-    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1607265609727">
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1607268925711">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1358" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607103143980" />
     <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.25.1440.790/589.-1055.1920.1055@0.25.1440.790" timestamp="1607187342355" />
-    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1607265609727" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1607268925711" />
     <state width="1358" height="120" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1606935037324" />
-    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1607265609726">
+    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1607268925710">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1358" height="305" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607103143979" />
     <state width="1398" height="221" key="GridCell.Tab.0.center/0.25.1440.790/589.-1055.1920.1055@0.25.1440.790" timestamp="1607187342354" />
-    <state width="1398" height="251" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1607265609726" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1607268925710" />
     <state width="1358" height="120" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1606935037323" />
-    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1607265609726">
+    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1607268925709">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1358" height="305" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607103143978" />
     <state width="1398" height="221" key="GridCell.Tab.0.left/0.25.1440.790/589.-1055.1920.1055@0.25.1440.790" timestamp="1607187342354" />
-    <state width="1398" height="251" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1607265609726" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1607268925709" />
     <state width="1358" height="120" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1606935037323" />
-    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1607265609726">
+    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1607268925711">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1358" height="305" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607103143979" />
     <state width="1398" height="221" key="GridCell.Tab.0.right/0.25.1440.790/589.-1055.1920.1055@0.25.1440.790" timestamp="1607187342355" />
-    <state width="1398" height="251" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1607265609726" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1607268925711" />
     <state width="1358" height="120" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1606935037324" />
     <state width="1398" height="221" key="GridCell.Tab.1.bottom" timestamp="1607265243168">
       <screen x="0" y="25" width="1440" height="790" />

@@ -4,7 +4,7 @@ namespace AoC2020.Days
 {
     using ParserType = MultiLineStringParser;
 
-    public class Day6B : Day6A
+    public class Day06B : Day06A
     {
         public override string Solve()
         {

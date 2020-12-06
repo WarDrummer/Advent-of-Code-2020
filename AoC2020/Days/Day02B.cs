@@ -38,13 +38,13 @@ namespace AoC2020.Days
         }
     }
     
-    public class Day2B : IProblem
+    public class Day02B : IProblem
     {
         protected readonly ParserType _parser;
 
-        public Day2B() : this(new ParserType("day02.in")) { }
+        public Day02B() : this(new ParserType("day02.in")) { }
 
-        private Day2B(ParserType parser) { _parser = parser; }
+        private Day02B(ParserType parser) { _parser = parser; }
 
         public virtual string Solve()
         {

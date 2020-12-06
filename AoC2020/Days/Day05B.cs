@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace AoC2020.Days
 {
-    public class Day5B : Day5A
+    public class Day05B : Day05A
     {
         public override string Solve()
         {
