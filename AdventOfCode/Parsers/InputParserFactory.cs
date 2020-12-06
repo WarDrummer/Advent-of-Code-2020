@@ -15,7 +15,7 @@ namespace AdventOfCode.Parsers
             return new MultiLineStringParser(GetPathFromType(typeof(T)));
         }
         
-        private static string GetPathFromType(Type currentType)
+        protected virtual string GetPathFromType(Type currentType)
         {
             var fullNameParts = currentType.FullName
                 .Split(new[] {"."}, StringSplitOptions.RemoveEmptyEntries)

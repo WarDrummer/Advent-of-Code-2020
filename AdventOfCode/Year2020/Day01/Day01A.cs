@@ -1,10 +1,15 @@
 using System.Linq;
+using AdventOfCode.Parsers;
 using AdventOfCode.Problem;
 
 namespace AdventOfCode.Year2020.Day01
 {
     public class Day01A : ProblemWithInput<Day01A>
     {
+        public Day01A() { }
+        public Day01A(InputParserFactory<Day01A> inputParserFactory) 
+            : base(inputParserFactory) { }
+
         public override string Solve()
         {
             var input = ParserFactory.CreateMultiLineStringParser()
