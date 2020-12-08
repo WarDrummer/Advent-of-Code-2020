@@ -7,7 +7,11 @@
   &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4aee81ab_002D7d18_002D4c30_002Db3cc_002De5ff221d5d97/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PartA_Example #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;ProjectFile&gt;0408ED5E-4983-4CE7-86A7-98287A44C789/d:Year2015/f:Day02.cs&lt;/ProjectFile&gt;
+  &lt;Or&gt;
+    &lt;ProjectFile&gt;0408ED5E-4983-4CE7-86A7-98287A44C789/d:Year2015/f:Day02.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;0408ED5E-4983-4CE7-86A7-98287A44C789/d:Year2020/f:Day07.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFolder&gt;0408ED5E-4983-4CE7-86A7-98287A44C789/d:Year2020&lt;/ProjectFolder&gt;
+  &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a5b02c84_002D8a16_002D4dc8_002Dabc2_002D0e3f9c67ae34/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PartA_Example #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;

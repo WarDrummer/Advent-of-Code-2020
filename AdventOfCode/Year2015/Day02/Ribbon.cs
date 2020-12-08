@@ -5,9 +5,9 @@ namespace AdventOfCode.Year2015.Day02
 {
     public class Ribbon
     {
-        public int Length { get; }
-        public int Width { get; }
-        public int Height { get; }
+        private int Length { get; }
+        private int Width { get; }
+        private int Height { get; }
 
         public int RequiredRibbon
         {
