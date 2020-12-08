@@ -7,17 +7,13 @@ namespace AdventOfCode.Year2020.Day04
     {
         private static readonly HashSet<string> EyeColor = new HashSet<string>
         {
-            "amb",
-            "blu",
-            "brn",
-            "gry",
-            "grn",
-            "hzl",
-            "oth"
+            "amb", "blu", "brn", "gry", "grn", "hzl", "oth"
         };
         
-        private static readonly HashSet<char> HexChar = new HashSet<char>(
-            "0123456789abcdef");
+        private static readonly HashSet<char> HexChar = new HashSet<char>("0123456789abcdef");
+        
+        public Day04B() : this(string.Empty) { }
+        public Day04B(string path) : base(path) { }
         
         protected override bool IsValidPassport(IDictionary<string, string> passport)
         {

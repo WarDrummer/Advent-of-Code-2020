@@ -3,8 +3,11 @@ using AdventOfCode.Problem;
 
 namespace AdventOfCode.Year2020.Day03
 {
-    public class Day03A : ProblemWithInput<Day03A>
+    public class Day03A : ProblemWithInput
     {
+        public Day03A() : this(string.Empty) { }
+        public Day03A(string path) : base(path) { }
+        
         public override string Solve()
         {
             var trees = GetTrees();

@@ -6,6 +6,9 @@ namespace AdventOfCode.Year2020.Day05
 {
     public class Day05B : Day05A
     {
+        public Day05B() : this(string.Empty) { }
+        public Day05B(string path) : base(path) { }
+        
         public override string Solve()
         {
             var takenSeatIds = GetBoardingPasses()

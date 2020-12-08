@@ -4,8 +4,11 @@ using AdventOfCode.Problem;
 
 namespace AdventOfCode.Year2020.Day02
 {
-    public class Day02A : ProblemWithInput<Day02A>
+    public class Day02A : ProblemWithInput
     {
+        public Day02A() : this(string.Empty) { }
+        public Day02A(string path) : base(path) { }
+        
         public override string Solve()
         {
             var input = ParserFactory.CreateMultiLineStringParser()

@@ -5,20 +5,25 @@ namespace AdventOfCode.Tests.Year2020
 {
     public class Day04
     {
-        [Fact]
-        public void PartA()
+        [Theory]
+        [InlineData("day04.example01.in", "2")]
+        [InlineData("day04.in", "170")]
+        public void PartA(string file, string expected)
         {
-            var problem = new Day04A();
+            var problem = new Day04A(file);
             var result = problem.Solve();
-            Assert.Equal("170", result);
+            Assert.Equal(expected, result);
         }
         
-        [Fact]
-        public void PartB()
+        [Theory]
+        [InlineData("day04.example02.in", "0")]
+        [InlineData("day04.example03.in", "4")]
+        [InlineData("day04.in", "103")]
+        public void PartB(string file, string expected)
         {
-            var problem = new Day04B();
+            var problem = new Day04B(file);
             var result = problem.Solve();
-            Assert.Equal("103", result);
+            Assert.Equal(expected, result);
         }
     }
 }

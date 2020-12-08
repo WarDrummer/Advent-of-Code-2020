@@ -5,8 +5,11 @@ using AdventOfCode.Problem;
 
 namespace AdventOfCode.Year2020.Day04
 {
-    public class Day04A : ProblemWithInput<Day04A>
+    public class Day04A : ProblemWithInput
     {
+        public Day04A() : this(string.Empty) { }
+        public Day04A(string path) : base(path) { }
+        
         public override string Solve()
         {
             var passports = GetPassports();

@@ -1,31 +1,26 @@
-using System;
-using System.Linq;
-
 namespace AdventOfCode.Parsers
 {
-    public class InputParserFactory<T>
+    public class InputParserFactory
     {
+        private readonly string _path;
+
+        public InputParserFactory(string path)
+        {
+            _path = path;
+        }
         public SingleLineStringParser CreateSingleLineStringParser()
         {
-            return new SingleLineStringParser(GetPathFromType(typeof(T)));
+            return new SingleLineStringParser(_path);
         }
         
         public MultiLineStringParser CreateMultiLineStringParser()
         {
-            return new MultiLineStringParser(GetPathFromType(typeof(T)));
+            return new MultiLineStringParser(_path);
         }
         
-        protected virtual string GetPathFromType(Type currentType)
+        public MultiLineIntParser CreateMultiLineIntParser()
         {
-            var fullNameParts = currentType.FullName
-                .Split(new[] {"."}, StringSplitOptions.RemoveEmptyEntries)
-                .ToArray();
-
-            var pathFromNamespace =
-                string.Join("/", fullNameParts.Skip(fullNameParts.Length - 3))
-                    .ToLower();
-
-            return $"{pathFromNamespace.Substring(0, pathFromNamespace.Length - 1)}.in";
+            return new MultiLineIntParser(_path);
         }
     }
 }

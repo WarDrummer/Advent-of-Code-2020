@@ -1,26 +1,26 @@
-using AdventOfCode.Year2020.Day07;
+using AdventOfCode.Year2020.Day08;
 using Xunit;
 
 namespace AdventOfCode.Tests.Year2020
 {
-    public class Day07
+    public class Day08
     {
         [Theory]
-        [InlineData("day07.example01.in", "4")]
-        [InlineData("day07.in", "124")]
+        [InlineData("day08.example01.in", "5")]
+        [InlineData("day08.in", "1420")]
         public void PartA(string file, string expected)
         {
-            var problem = new Day07A(file);
+            var problem = new Day08A(file);
             var result = problem.Solve();
             Assert.Equal(expected, result);
         }
         
         [Theory]
-        [InlineData("day07.example02.in", "126")]
-        [InlineData("day07.in", "34862")]
+        [InlineData("day08.example01.in", "8")]
+        [InlineData("day08.in", "1245")]
         public void PartB(string file, string expected)
         {
-            var problem = new Day07B(file);
+            var problem = new Day08B(file);
             var result = problem.Solve();
             Assert.Equal(expected, result);
         }

@@ -16,7 +16,13 @@ namespace AdventOfCode.Problem
             Create<T>()
                 .AppendTime()
                 .Solve()
-                .ToConsole(typeof(T).FullName?.Split('.').Last());
+                .ToConsole(GetName<T>());
+        }
+
+        private static string GetName<T>() where T : IProblem
+        {
+            var parts = typeof(T).FullName?.Split('.').TakeLast(3).ToArray();
+            return $"{parts[0]}-{parts[2]}";
         }
     }
 }

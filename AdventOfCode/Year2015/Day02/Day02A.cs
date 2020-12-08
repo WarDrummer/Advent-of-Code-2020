@@ -1,14 +1,12 @@
 using System.Linq;
-using AdventOfCode.Parsers;
 using AdventOfCode.Problem;
 
 namespace AdventOfCode.Year2015.Day02
 {
-    public class Day02A : ProblemWithInput<Day02A>
+    public class Day02A : ProblemWithInput
     {
-        public Day02A() { }
-        public Day02A(InputParserFactory<Day02A> inputParserFactory) 
-            : base(inputParserFactory) { }
+        public Day02A() : this(string.Empty) { }
+        public Day02A(string path) : base(path) { }
         
         public override string Solve()
         {

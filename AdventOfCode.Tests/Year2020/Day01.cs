@@ -1,4 +1,3 @@
-using AdventOfCode.Tests.Parsers;
 using AdventOfCode.Year2020.Day01;
 using Xunit;
 
@@ -6,36 +5,24 @@ namespace AdventOfCode.Tests.Year2020
 {
     public class Day01
     {
-        [Fact]
-        public void PartA_Example()
+        [Theory]
+        [InlineData("day01.example01.in", "514579")]
+        [InlineData("day01.in", "910539")]
+        public void PartA(string file, string expected)
         {
-            var problem = new Day01A(new ExampleInputParserFactory<Day01A>("day01.example.in"));
+            var problem = new Day01A(file);
             var result = problem.Solve();
-            Assert.Equal("514579", result);
+            Assert.Equal(expected, result);
         }
-        
-        [Fact]
-        public void PartA()
+
+        [Theory]
+        [InlineData("day01.example01.in", "241861950")]
+        [InlineData("day01.in", "116724144")]
+        public void PartB(string file, string expected)
         {
-            var problem = new Day01A();
+            var problem = new Day01B(file);
             var result = problem.Solve();
-            Assert.Equal("910539", result);
-        }
-        
-        [Fact]
-        public void PartB_Example()
-        {
-            var problem = new Day01B(new ExampleInputParserFactory<Day01B>("day01.example.in"));
-            var result = problem.Solve();
-            Assert.Equal("241861950", result);
-        }
-        
-        [Fact]
-        public void PartB()
-        {
-            var problem = new Day01B();
-            var result = problem.Solve();
-            Assert.Equal("116724144", result);
+            Assert.Equal(expected, result);
         }
     }
 }

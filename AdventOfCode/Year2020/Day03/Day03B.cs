@@ -2,6 +2,9 @@ namespace AdventOfCode.Year2020.Day03
 {
     public class Day03B : Day03A
     {
+        public Day03B() : this(string.Empty) { }
+        public Day03B(string path) : base(path) { }
+        
         public override string Solve()
         {
             var trees = GetTrees();

@@ -7,8 +7,11 @@ namespace AdventOfCode.Year2020.Day06
 {
     using ParserType = MultiLineStringParser;
 
-    public class Day06A : ProblemWithInput<Day06A>
+    public class Day06A : ProblemWithInput
     {
+        public Day06A() : this(string.Empty) { }
+        public Day06A(string path) : base(path) { }
+        
         public override string Solve()
         {
             var responses = GetGroupResponses();

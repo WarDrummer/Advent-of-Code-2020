@@ -1,13 +1,11 @@
-using AdventOfCode.Parsers;
 using AdventOfCode.Problem;
 
 namespace AdventOfCode.Year2020.Day07
 {
-    public class Day07B : ProblemWithInput<Day07B>
+    public class Day07B : ProblemWithInput
     {
-        public Day07B() { }
-        public Day07B(InputParserFactory<Day07B> inputParserFactory) 
-            : base(inputParserFactory) { }
+        public Day07B() : this(string.Empty) { }
+        public Day07B(string path) : base(path) { }
         
         public override string Solve()
         {

@@ -6,7 +6,7 @@ using AdventOfCode.Year2020.Day04;
 using AdventOfCode.Year2020.Day05;
 using AdventOfCode.Year2020.Day06;
 using AdventOfCode.Year2020.Day07;
-// using AdventOfCode.Year2020.Day08;
+using AdventOfCode.Year2020.Day08;
 // using AdventOfCode.Year2020.Day09;
 // using AdventOfCode.Year2020.Day10;
 // using AdventOfCode.Year2020.Day11;
@@ -52,9 +52,9 @@ namespace AdventOfCode.Year2020
             ProblemFactory.Execute<Day07A>();
             ProblemFactory.Execute<Day07B>();
             
-            // ProblemFactory.Execute<Day08A>();
-            // ProblemFactory.Execute<Day08B>();
-            //
+            ProblemFactory.Execute<Day08A>();
+            ProblemFactory.Execute<Day08B>();
+            
             // ProblemFactory.Execute<Day09A>();
             // ProblemFactory.Execute<Day09B>();
             //

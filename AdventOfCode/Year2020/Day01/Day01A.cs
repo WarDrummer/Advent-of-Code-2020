@@ -1,20 +1,17 @@
 using System.Linq;
-using AdventOfCode.Parsers;
 using AdventOfCode.Problem;
 
 namespace AdventOfCode.Year2020.Day01
 {
-    public class Day01A : ProblemWithInput<Day01A>
+    public class Day01A : ProblemWithInput
     {
-        public Day01A() { }
-        public Day01A(InputParserFactory<Day01A> inputParserFactory) 
-            : base(inputParserFactory) { }
-
+        public Day01A() : this(string.Empty) { }
+        public Day01A(string path) : base(path) { }
+        
         public override string Solve()
         {
-            var input = ParserFactory.CreateMultiLineStringParser()
+            var input = ParserFactory.CreateMultiLineIntParser()
                 .GetData()
-                .Select(int.Parse)
                 .ToArray();
 
             for (var x = 0; x < input.Length-1; x++)

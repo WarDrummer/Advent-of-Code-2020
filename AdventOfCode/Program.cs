@@ -1,4 +1,5 @@
-﻿using AdventOfCode.Year2020;
+﻿using AdventOfCode.Year2015;
+using AdventOfCode.Year2020;
 
 namespace AdventOfCode
 {
@@ -6,7 +7,7 @@ namespace AdventOfCode
     {
         static void Main()
         {
-            // new Year2015Executor().Execute();
+            new Year2015Executor().Execute();
             // new Year2016Executor().Execute();
             // new Year2017Executor().Execute();
             // new Year2018Executor().Execute();
