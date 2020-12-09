@@ -56,7 +56,7 @@ namespace AdventOfCode.Year2020
             ProblemFactory.Execute<Day08B>();
             
             ProblemFactory.Execute<Day09A>();
-            // ProblemFactory.Execute<Day09B>();
+            ProblemFactory.Execute<Day09B>();
             //
             // ProblemFactory.Execute<Day10A>();
             // ProblemFactory.Execute<Day10B>();
